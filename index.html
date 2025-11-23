@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>土田陸斗 - Resume</title>
+        <title data-i18n-key="meta.title">土田陸斗 - Resume</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
         <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
@@ -19,7 +19,7 @@
         <!-- Navigation-->
         <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
             <a class="navbar-brand js-scroll-trigger" href="#page-top">
-                <span class="d-block d-lg-none">土田陸斗</span>
+                <span class="d-block d-lg-none" data-i18n-key="nav.name">土田陸斗</span>
                 <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/img/profile.jpg" alt="..." /></span>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
@@ -32,6 +32,12 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#presentations">Presentations</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Awards</a></li>
+                    <li class="nav-item language-toggle-item">
+                        <div class="language-toggle">
+                            <button class="btn btn-sm btn-light text-primary active" type="button" data-lang-toggle="ja" aria-pressed="true">日本語</button>
+                            <button class="btn btn-sm btn-outline-light" type="button" data-lang-toggle="en" aria-pressed="false">English</button>
+                        </div>
+                    </li>
                 </ul>
             </div>
         </nav>
@@ -41,10 +47,10 @@
             <section class="resume-section" id="about">
                 <div class="resume-section-content">
                     <h1 class="mb-0">
-                        土田
-                        <span class="text-primary">陸斗</span>
+                        <span data-i18n-key="about.name.family">土田</span>
+                        <span class="text-primary" data-i18n-key="about.name.given">陸斗</span>
                     </h1>
-                    <div class="subheading mb-5">
+                    <div class="subheading mb-5" data-i18n-key="about.subtitle">
                         奈良先端科学技術大学院大学 情報科学領域 修士1年
                     </div>                    
                     <div class="social-icons">
@@ -61,43 +67,43 @@
                     <h2 class="mb-5">Experience</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">バックエンドエンジニア（業務委託）</h3>
-                            <div class="subheading mb-3">株式会社ICO</div>
-                            <p>NAIST発スタートアップにて、FastAPIを用いたバックエンド開発を担当しています。</p>
+                            <h3 class="mb-0" data-i18n-key="experience.ico.role">バックエンドエンジニア（業務委託）</h3>
+                            <div class="subheading mb-3" data-i18n-key="experience.ico.company">株式会社ICO</div>
+                            <p data-i18n-key="experience.ico.desc">NAIST発スタートアップにて、FastAPIを用いたバックエンド開発を担当しています。</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2025年5月 - 現在</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary" data-i18n-key="experience.ico.date">2025年5月 - 現在</span></div>
                     </div>                    
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">メンター</h3>
-                            <div class="subheading mb-3">NAIST STELLA</div>
-                            <p>高校生の研究活動を支援するメンターとして活動しています。</p>
+                            <h3 class="mb-0" data-i18n-key="experience.stella.role">メンター</h3>
+                            <div class="subheading mb-3" data-i18n-key="experience.stella.company">NAIST STELLA</div>
+                            <p data-i18n-key="experience.stella.desc">高校生の研究活動を支援するメンターとして活動しています。</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2025年5月 - 現在</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary" data-i18n-key="experience.stella.date">2025年5月 - 現在</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">インターンシップ</h3>
-                            <div class="subheading mb-3">株式会社MonotaRO</div>
-                            <p>既存処理の非同期化によるレイテンシ改善に取り組みました。各種テストの実装やDatadogによる計測を行いました。</p>
+                            <h3 class="mb-0" data-i18n-key="experience.monotaro.role">インターンシップ</h3>
+                            <div class="subheading mb-3" data-i18n-key="experience.monotaro.company">株式会社MonotaRO</div>
+                            <p data-i18n-key="experience.monotaro.desc">既存処理の非同期化によるレイテンシ改善に取り組みました。各種テストの実装やDatadogによる計測を行いました。</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2025年8月</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary" data-i18n-key="experience.monotaro.date">2025年8月</span></div>
                     </div>                    
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">インターンシップ</h3>
-                            <div class="subheading mb-3">株式会社ファーストリテイリング</div>
-                            <p>ECサイトのバックエンド開発に従事しました。社内共通語が英語の環境で、海外メンターとの1on1ミーティングを含め、英語でのコミュニケーションを経験しました。</p>
+                            <h3 class="mb-0" data-i18n-key="experience.fr.role">インターンシップ</h3>
+                            <div class="subheading mb-3" data-i18n-key="experience.fr.company">株式会社ファーストリテイリング</div>
+                            <p data-i18n-key="experience.fr.desc">ECサイトのバックエンド開発に従事しました。社内共通語が英語の環境で、海外メンターとの1on1ミーティングを含め、英語でのコミュニケーションを経験しました。</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2025年9月 - 10月</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary" data-i18n-key="experience.fr.date">2025年9月 - 10月</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">インターンシップ</h3>
-                            <div class="subheading mb-3">マレーシア工科大学</div>
-                            <p>教材用ロボットアームの設計から部品の選定・発注、組み立て、プログラム実装まで一連の開発プロセスを英語でのコミュニケーションと議論を通じて完遂しました。</p>
+                            <h3 class="mb-0" data-i18n-key="experience.utm.role">インターンシップ</h3>
+                            <div class="subheading mb-3" data-i18n-key="experience.utm.company">マレーシア工科大学</div>
+                            <p data-i18n-key="experience.utm.desc">教材用ロボットアームの設計から部品の選定・発注、組み立て、プログラム実装まで一連の開発プロセスを英語でのコミュニケーションと議論を通じて完遂しました。</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2023年9月 - 10月</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary" data-i18n-key="experience.utm.date">2023年9月 - 10月</span></div>
                     </div>
                 </div>
             </section>
@@ -108,24 +114,24 @@
                     <h2 class="mb-5">Education</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">奈良先端科学技術大学院大学</h3>
-                            <div class="subheading mb-3">情報科学領域 修士課程</div>                            
+                            <h3 class="mb-0" data-i18n-key="education.naist.school">奈良先端科学技術大学院大学</h3>
+                            <div class="subheading mb-3" data-i18n-key="education.naist.degree">情報科学領域 修士課程</div>                            
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2025年4月 - 2027年3月（予定）</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary" data-i18n-key="education.naist.date">2025年4月 - 2027年3月（予定）</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">岐阜工業高等専門学校</h3>
-                            <div class="subheading mb-3">先端融合開発専攻科</div>                            
+                            <h3 class="mb-0" data-i18n-key="education.kosen.school">岐阜工業高等専門学校</h3>
+                            <div class="subheading mb-3" data-i18n-key="education.kosen.degree">先端融合開発専攻科</div>                            
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2023年4月 - 2025年3月</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary" data-i18n-key="education.kosen.date">2023年4月 - 2025年3月</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">岐阜工業高等専門学校</h3>
-                            <div class="subheading mb-3">電子制御工学科</div>                            
+                            <h3 class="mb-0" data-i18n-key="education.kosen.undergrad.school">岐阜工業高等専門学校</h3>
+                            <div class="subheading mb-3" data-i18n-key="education.kosen.undergrad.degree">電子制御工学科</div>                            
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2018年4月 - 2023年3月</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary" data-i18n-key="education.kosen.undergrad.date">2018年4月 - 2023年3月</span></div>
                     </div>
                 </div>
             </section>
@@ -165,17 +171,17 @@
                             <strong>Keywords:</strong> GitHub Mining, AI-powered Development, Empirical Software Engineering</p>
                             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                                 <div class="flex-grow-1">
-                                    <h3 class="mb-0">GitHubにおけるAIエージェント採用者の分析</h3>
-                                    <p>ソフトウェア工学研究室にて、AIコーディングエージェントのユーザー理解に関する研究を実施しています。</p>
+                                    <h3 class="mb-0" data-i18n-key="interests.research.github.title">GitHubにおけるAIエージェント採用者の分析</h3>
+                                    <p data-i18n-key="interests.research.github.desc">ソフトウェア工学研究室にて、AIコーディングエージェントのユーザー理解に関する研究を実施しています。</p>
                                 </div>
-                                <div class="flex-shrink-0"><span class="text-primary">2025年</span></div>
+                                <div class="flex-shrink-0"><span class="text-primary" data-i18n-key="interests.research.github.date">2025年</span></div>
                             </div>
                             <div class="d-flex flex-column flex-md-row justify-content-between">
                                 <div class="flex-grow-1">
-                                    <h3 class="mb-0">Word2vecとクラスタ分析を使用した感情分析モデル</h3>
-                                    <p>Word2vecとクラスタ分析を組み合わせることで、教師データを必要とせず、低コストかつ柔軟性の高い感情分析モデルを開発しました。</p>
+                                    <h3 class="mb-0" data-i18n-key="interests.research.sentiment.title">Word2vecとクラスタ分析を使用した感情分析モデル</h3>
+                                    <p data-i18n-key="interests.research.sentiment.desc">Word2vecとクラスタ分析を組み合わせることで、教師データを必要とせず、低コストかつ柔軟性の高い感情分析モデルを開発しました。</p>
                                 </div>
-                                <div class="flex-shrink-0"><span class="text-primary">2023年</span></div>
+                                <div class="flex-shrink-0"><span class="text-primary" data-i18n-key="interests.research.sentiment.date">2023年</span></div>
                             </div>
                         </div>
                     </div>
@@ -186,22 +192,22 @@
                         <div class="interest-category-content">
                             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                                 <div class="flex-grow-1">
-                                    <h3 class="mb-0">MiMcare(介護施設向けおしゃべりロボット)</h3>
+                                    <h3 class="mb-0" data-i18n-key="projects.mimcare.title">MiMcare(介護施設向けおしゃべりロボット)</h3>
                                     <div class="subheading mb-3">FastAPI · Raspberry Pi · Next.js · React Native</div>
-                                    <p>高齢者の見守りを目的としたシステムです。高齢者との会話情報を元に、介護施設側のダッシュボードや家族用のアプリケーションに必要な情報を表示します。<a href="https://geiot-comm.naist.jp/" target="_blank">NAIST GEIOT</a>全体2位を獲得し、<a href="https://www.osaka-startup.com/program/sio-accel/" target="_blank">SIOアクセラレーション2025</a>に採択されました。</p>
+                                    <p data-i18n-key="projects.mimcare.desc" data-i18n-html="true">高齢者の見守りを目的としたシステムです。高齢者との会話情報を元に、介護施設側のダッシュボードや家族用のアプリケーションに必要な情報を表示します。<a href="https://geiot-comm.naist.jp/" target="_blank">NAIST GEIOT</a>全体2位を獲得し、<a href="https://www.osaka-startup.com/program/sio-accel/" target="_blank">SIOアクセラレーション2025</a>に採択されました。</p>
                                     <div class="mt-2">
                                         <a href="https://github.com/tsuchidarikuto/mimamori-backend" target="_blank" class="btn btn-sm btn-outline-primary me-2">
                                             <i class="fab fa-github me-1"></i>GitHub
                                         </a>
                                     </div>
                                 </div>
-                                <div class="flex-shrink-0"><span class="text-primary">2025年</span></div>
+                                <div class="flex-shrink-0"><span class="text-primary" data-i18n-key="projects.mimcare.date">2025年</span></div>
                             </div>
                             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                                 <div class="flex-grow-1">
-                                    <h3 class="mb-0">MENTRY（面接シミュレーションアプリ）</h3>
+                                    <h3 class="mb-0" data-i18n-key="projects.mentry.title">MENTRY（面接シミュレーションアプリ）</h3>
                                     <div class="subheading mb-3">Next.js · TypeScript · React · MUI · Supabase</div>
-                                    <p>就職活動における面接練習を支援するWebアプリケーションです。また、LLMに入力されるコンテキストの増大に伴って、LLMが本来の支持から逸れてしまうのを避けるために、質問リスト作成、面接の進行、深掘り質問の考案、合否の評価をそれぞれ別のLLMが、オーケストレーション的な動作するような設計にしました。</p>
+                                    <p data-i18n-key="projects.mentry.desc">就職活動における面接練習を支援するWebアプリケーションです。また、LLMに入力されるコンテキストの増大に伴って、LLMが本来の支持から逸れてしまうのを避けるために、質問リスト作成、面接の進行、深掘り質問の考案、合否の評価をそれぞれ別のLLMが、オーケストレーション的な動作するような設計にしました。</p>
                                     <div class="mt-2">
                                         <a href="https://github.com/tsuchidarikuto/interview-sim" target="_blank" class="btn btn-sm btn-outline-primary me-2">
                                             <i class="fab fa-github me-1"></i>GitHub
@@ -211,13 +217,13 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="flex-shrink-0"><span class="text-primary">2025年</span></div>
+                                <div class="flex-shrink-0"><span class="text-primary" data-i18n-key="projects.mentry.date">2025年</span></div>
                             </div>
                             <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                                 <div class="flex-grow-1">
-                                    <h3 class="mb-0">AI料理アシスタント</h3>
+                                    <h3 class="mb-0" data-i18n-key="projects.cooking.title">AI料理アシスタント</h3>
                                     <div class="subheading mb-3">Next.js · TypeScript · Tailwind CSS</div>
-                                    <p>音声対話と画像認識AIを搭載した料理支援アプリケーションです。Progate主催のハッカソンで開発しました。</p>
+                                    <p data-i18n-key="projects.cooking.desc">音声対話と画像認識AIを搭載した料理支援アプリケーションです。Progate主催のハッカソンで開発しました。</p>
                                     <div class="mt-2">
                                         <a href="https://github.com/tsuchidarikuto/cooking-assistant" target="_blank" class="btn btn-sm btn-outline-primary me-2">
                                             <i class="fab fa-github me-1"></i>GitHub
@@ -227,20 +233,20 @@
                                         </a>
                                     </div>
                                 </div>
-                                <div class="flex-shrink-0"><span class="text-primary">2025年</span></div>
+                                <div class="flex-shrink-0"><span class="text-primary" data-i18n-key="projects.cooking.date">2025年</span></div>
                             </div>
                             <div class="d-flex flex-column flex-md-row justify-content-between">
                                 <div class="flex-grow-1">
-                                    <h3 class="mb-0">Comentor（コメント評価アプリ）</h3>
+                                    <h3 class="mb-0" data-i18n-key="projects.comentor.title">Comentor（コメント評価アプリ）</h3>
                                     <div class="subheading mb-3">Next.js · TypeScript · MUI</div>
-                                    <p>コードのコメント品質を評価するWebアプリケーションです。ハッカソンで開発しました。</p>
+                                    <p data-i18n-key="projects.comentor.desc">コードのコメント品質を評価するWebアプリケーションです。ハッカソンで開発しました。</p>
                                     <div class="mt-2">
                                         <a href="https://github.com/tsuchidarikuto/code-comment-app" target="_blank" class="btn btn-sm btn-outline-primary me-2">
                                             <i class="fab fa-github me-1"></i>GitHub
                                         </a>
                                     </div>
                                 </div>
-                                <div class="flex-shrink-0"><span class="text-primary">2024年</span></div>
+                                <div class="flex-shrink-0"><span class="text-primary" data-i18n-key="projects.comentor.date">2024年</span></div>
                             </div>
                         </div>
                     </div>
@@ -253,19 +259,19 @@
                     <h2 class="mb-5">Presentations</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-4">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">GitHub における生成 AI 採用者のメンテナンス活動の分析</h3>
-                            <div class="subheading mb-2">日本ソフトウェア科学会 ソフトウェア工学の基礎ワークショップ <a href="https://fose.jssst.or.jp/fose2025/award.html#FOSE" target="_blank">FOSE2025</a> ポスターセッション</div>
+                            <h3 class="mb-0" data-i18n-key="presentations.github.title">GitHub における生成 AI 採用者のメンテナンス活動の分析</h3>
+                            <div class="subheading mb-2" data-i18n-key="presentations.github.venue" data-i18n-html="true">日本ソフトウェア科学会 ソフトウェア工学の基礎ワークショップ <a href="https://fose.jssst.or.jp/fose2025/award.html#FOSE" target="_blank">FOSE2025</a> ポスターセッション</div>
                             <p class="mb-0"><strong>Authors:</strong> 土田陸斗, 嶋利一真, Gema Rodríguez-Pérez, Raula Gaikovina Kula, 松本健一</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2025年11月</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary" data-i18n-key="presentations.github.date">2025年11月</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Word2vecとクラスタ分析を利用した感情推定モデル</h3>
-                            <div class="subheading mb-2">電気・電子・情報関係学会東海支部連合大会</div>
+                            <h3 class="mb-0" data-i18n-key="presentations.sentiment.title">Word2vecとクラスタ分析を利用した感情推定モデル</h3>
+                            <div class="subheading mb-2" data-i18n-key="presentations.sentiment.venue">電気・電子・情報関係学会東海支部連合大会</div>
                             <p class="mb-0"><strong>Authors:</strong> 土田陸斗, 出口利憲</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">2023年8月</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary" data-i18n-key="presentations.sentiment.date">2023年8月</span></div>
                     </div>
                 </div>
             </section>
@@ -277,41 +283,41 @@
                     <ul class="fa-ul mb-0">
                         <li>
                             <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
-                            TOEIC L&R 915点（2023年10月）
+                            <span data-i18n-key="awards.toeic">TOEIC L&R 915点（2023年10月）</span>
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-certificate text-warning"></i></span>
-                            基本情報技術者（2024年5月）
+                            <span data-i18n-key="awards.fe">基本情報技術者（2024年5月）</span>
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-graduation-cap text-warning"></i></span>
-                            松尾研 GCI講座 修了
+                            <span data-i18n-key="awards.gci">松尾研 GCI講座 修了</span>
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-graduation-cap text-warning"></i></span>
-                            松尾研 LLM講座 修了
+                            <span data-i18n-key="awards.llm">松尾研 LLM講座 修了</span>
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            第32回 日本ソフトウェア科学会 ソフトウェア工学の基礎ワークショップ ポスターセッション 優秀発表賞（2025年11月）
+                            <span data-i18n-key="awards.fose">第32回 日本ソフトウェア科学会 ソフトウェア工学の基礎ワークショップ ポスターセッション 優秀発表賞（2025年11月）</span>
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            NAIST GEIOT 2位（2025年）
+                            <span data-i18n-key="awards.geiot">NAIST GEIOT 2位（2025年）</span>
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            技育博2024 Vol.6 出展（2025年2月）
+                            <span data-i18n-key="awards.gihaku">技育博2024 Vol.6 出展（2025年2月）</span>
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            <a href="https://www.osaka-startup.com/program/sio-accel/" target="_blank">SIOアクセラレーション2025</a> 採択
+                            <span data-i18n-key="awards.sio" data-i18n-html="true"><a href="https://www.osaka-startup.com/program/sio-accel/" target="_blank">SIOアクセラレーション2025</a> 採択</span>
                         </li>                        
                         <li>
                             <span class="fa-li"><i class="fas fa-file-alt text-warning"></i></span>
-                            <strong>Round Outcome Prediction in VALORANT Using Tactical Features from Video Analysis</strong><br>
+                            <span data-i18n-key="awards.valorant" data-i18n-html="true"><strong>Round Outcome Prediction in VALORANT Using Tactical Features from Video Analysis</strong><br>
                             <em>Authors:</em> Nirai Hayakawa, Kazumasa Shimari, Kazuma Yamasaki, Hirotatsu Hoshikawa, Rikuto Tsuchida, Kenichi Matsumoto<br>
-                            <em>Venue:</em> 2025 IEEE Conference on Games (CoG 2025)（2025年8月）
+                            <em>Venue:</em> 2025 IEEE Conference on Games (CoG 2025)（2025年8月）</span>
                         </li>                                                
                     </ul>
                 </div>

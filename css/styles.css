@@ -10867,6 +10867,63 @@ p.lead {
   font-size: 1.5rem;
 }
 
+/* Language toggle styles */
+.language-toggle-item {
+  margin-top: 1.5rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.language-toggle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: nowrap;
+}
+
+.language-toggle .btn {
+  flex: 0 0 auto;
+  min-width: 70px;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  border-width: 2px;
+  white-space: nowrap;
+}
+
+.language-toggle .btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.language-toggle .btn.active {
+  background-color: #fff;
+  border-color: #fff;
+  color: var(--bs-primary);
+}
+
+.language-toggle .btn-outline-light {
+  color: rgba(255, 255, 255, 0.8);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+.language-toggle .btn-outline-light:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: #fff;
+  color: #fff;
+}
+
+@media (max-width: 991px) {
+  .language-toggle-item {
+    margin-top: 1rem;
+    padding-top: 1rem;
+  }
+
+  .language-toggle {
+    gap: 0.75rem;
+  }
+}
+
 /* Interest category styles for hierarchical structure */
 .interest-category {
   border-left: 4px solid var(--bs-primary);
@@ -10911,6 +10968,13 @@ p.lead {
   padding-left: 1rem;
   padding-right: 1rem;
 }
+#sideNav .language-toggle {
+  padding: 0.75rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+#sideNav .navbar-nav {
+  padding-top: 0.5rem;
+}
 #sideNav .navbar-nav .nav-item .nav-link {
   font-weight: 800;
   letter-spacing: 0.05rem;
@@ -10949,6 +11013,10 @@ p.lead {
     flex-grow: 0;
     width: 100%;
     margin-bottom: auto;
+  }
+  #sideNav .language-toggle {
+    padding-top: 1.25rem;
+    padding-bottom: 1rem;
   }
   #sideNav .navbar-collapse .navbar-nav {
     flex-direction: column;
